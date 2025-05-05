@@ -142,3 +142,37 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Style for participants container */
+.participants-container {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border: 1px solid #90caf9;
+  border-radius: 5px;
+}
+
+.participants-container p {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #0d47a1;
+}
+
+.participants {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.participants li {
+  padding: 5px;
+  background-color: #bbdefb;
+  border: 1px solid #90caf9;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  color: #0d47a1;
+}
+
+.participants-list li:last-child {
+  margin-bottom: 0;
+}
